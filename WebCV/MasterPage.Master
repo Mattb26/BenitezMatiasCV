@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="WebCV.Site1" %>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!–Con esto garantizamos que se vea bien en dispositivos móviles–>
+    <title>Curriculum Vitae Matias Benitez</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen"> <!–Llamamos al archivo CSS a través de CDN –>
+  </head>
+  <body>
+    <div>
+        <img src="https://ibb.co/VCY1QGT" height=""/>
+        <span>
+            <h1>Benitez Ariel Matias</h1>
+        </span>
+    </div>
+    <h3>Datos Personales</h3>
+    <p>DNI - 40643083 / 03/10/1997 / Lugano / Santander 5640 / CP 1439 / CABA / Tel: - 46022128 / Cel: - 1566004952 / Mattb26111@gmail.com</p>
+ 	<p> Estudiante de analista de sistema en su último año de carrera con interés de obtener un puesto laboral para afianzar sus conocimientos en la materia y poder generar más oportunidades en su futuro.</p>	
+    <hr />    
+    <h3>Experiencia Laboral</h3>
+    <ul>
+        <li><strong>2019 a actualidad – Developer (Cuenta propia)</strong>Crear páginas web, programas a medida para diferentes clientes.</li>
+        <li><strong>2017 al 2018 - Banco Galicia - Seguridad Informática</strong>Manejo de cuentas de usuarios, soportes a usuarios de la empresa, administración de contraseñas.</li>
+        <li><strong>2015 al 2016 - Reparación de Pc</strong>Mantenimiento, reparación y venta de partes usadas.</li>
+    </ul>
+    <hr />
+    <h3>Formación Académica</h3>
+    <ul>
+        <li><strong>2019 a Actualidad - Analista en Sistemas</strong>Instituto Nuestra Señora de la Paz Terciario - 23/29 Materias</li>
+        <li><strong>2010 a 2015 - Bachiller con capacitación laboral en Informática.</strong>Instituto Don Orione - Finalizado diciembre 2015</li>
+    </ul>
+    <hr />
+    <h3>Capacitaciones</h3>
+    <ul>
+        <li><strong>2018-2018	Curso de programación de videojuegos 3D Unity</strong>Finalizado diciembre 2018</li>
+        <li><strong>2017-2017	Curso de Administración contable</strong>AMIA Finalizado agosto 2017</li>
+        <li>Inglés: Nivel Medio </li>
+        <li>Japonés: Nivel Bajo</li>
+        <li>Microsoft Excel. Nivel Alto</li>
+        <li>Microsoft Word. Nivel Alto</li>
+        <li>SQL. Nivel Medio</li>
+        <li>Programación C++. Nivel Medio</li>
+    </ul>
+    <br />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!–llamar antes a jQuery para que funcione bootstrap.min.js   –> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> <!– Llamamos al JavaScript  a través de CDN –>
+  </body>
+</html> 
